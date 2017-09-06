@@ -1,0 +1,81 @@
+/* .main{
+	position: static;
+	padding : 20px;
+	min-width: 400px;
+}
+
+.top{
+	border: 1px solid red; 
+	margin-bottom: 5px;
+}
+.side{ 
+	width:100px;
+	height:200px;
+	border: 1px solid blue; 
+	float: left;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.content{ 
+	
+	width:91%;
+	border: 1px solid green; 
+	float: left;
+}
+.con_in1{
+	width:30%;
+	height:200px;
+	border: 1px solid lime; 
+	float: left;
+	
+	margin:10px;
+}
+
+.con_in2{
+	width:30%;
+	height:200px;
+	border: 1px solid purple; 
+	float: left;
+}
+
+.con_in3{
+	width:30%;
+	height:200px;
+	border: 1px solid maroon; 
+	float: left;
+}
+.footer{
+	overflow: auto;
+	width:100%;
+	border: 1px solid black; 
+	margin-top: 10px;
+} */
+
+#topMenu { // topMenu�� Iddㅇㅇㅇㄴ아나D�� ���� �±��� ��Ÿ�� ���� 
+	height: 30px; // topMenu�� ���̸� 30px�� ����(����� ���� ���ϸ� �Ʒ� ������ ����) 
+	width: 850px; // topMenu�� ���̸� 850px�� ����(����� ���� ���ϸ� ������ ���̰� �������� ����) 
+} 
+#topMenu ul li { // topMenu�� ID�� ���� �±� �ȿ� <ul> �±� �ȿ� <li> �±��� ��Ÿ���� ���� 
+	list-style: none; // <li> �±״� ���� �̹���ó�� ����� ��Ÿ���� ���� ���ش� 
+	color: white; // �۾� ���� ������� ���� 
+	background-color: #2d2d2d; // ������ ���� ȸ��(RGB(2D,2D,2D)���� ����
+	float: left; // <li>�±׵��� ���ʿ� �帣�� ����(�׷��� �Ʒ��ִ� ������ ���������� ��) 
+	line-height: 30px; // �۾��� ����� ������ �����ϱ� ���� ������ ���̸� 30px�� ���� 
+	vertical-align: middle; // ���� ������ ����� ����(���� line-height�� ���� ���� �ʿ���) 
+	text-align: center; // �۾� ������ ����� ���� 
+} 
+#topMenu .menuLink { // topMenu ���̵� ���� �±� �ȿ� �ִ� menuLink Ŭ���� �±׵��� ��Ÿ�� ����
+	text-decoration:none; // ��ũ(<a> �±�)�� ������ �⺻ �ٹ� ȿ��(���� ��)�� ���� 
+	color: white; // ��Ʈ���� ������� ����
+	display: block; // ��ũ�� �۾��� �ִ� �κ� �Ӹ��ƴ϶� ��ü ������ Ŭ���ص� ��ũ�� �ɸ��� ���� 
+	width: 150px; // �޴���ũ�� ���� ����
+	font-size: 12px; // ��Ʈ ������ 12px�� ����
+	font-weight: bold; // ��Ʈ�� ���� 
+	font-family: "Trebuchet MS", Dotum, Arial; // �⺻ ��Ʈ ����, �ý��� ��Ʈ�� �������� �������
+} 
+#topMenu .menuLink:hover { //topMenu ���̵� ���� �±� �ȿ� menuLinkŬ������ ���� �±׿� ���콺�� over�Ǹ� ��Ÿ�� ���� 
+	color: red; // �۾� ���� ���������� ���� 
+	background-color: #4d4d4d; // ������ ���� �� ���� ȸ������ ���� 
+}
+
